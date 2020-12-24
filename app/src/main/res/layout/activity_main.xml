@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e2e7"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_musicName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Me Hand"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/iv_disk"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@mipmap/disk" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_music_previous"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/music_previous" />
+
+        <Button
+            android:id="@+id/btn_music"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/music_on" />
+
+        <Button
+            android:id="@+id/btn_music_next"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/music_next" />
+
+    </LinearLayout>
+</LinearLayout>
